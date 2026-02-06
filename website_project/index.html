@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="OnLoop Energy develops wind–solar hybrid power projects that deliver stable, long-term energy for industrial and commercial users through open access.">
+  <title>OnLoop Energy | Hybrid Energy. Engineered for Balance.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.svg" alt="OnLoop Energy" style="height: 48px; width: auto;">
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+          <li class="nav__dropdown">
+            <span class="nav__dropdown-toggle">
+              Solutions
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </span>
+            <div class="nav__dropdown-menu">
+              <a href="solar.html" class="nav__dropdown-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+                  <circle cx="12" cy="12" r="5" />
+                  <line x1="12" y1="1" x2="12" y2="3" />
+                  <line x1="12" y1="21" x2="12" y2="23" />
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                  <line x1="1" y1="12" x2="3" y2="12" />
+                  <line x1="21" y1="12" x2="23" y2="12" />
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </svg>
+                Solar Energy
+              </a>
+              <a href="wind.html" class="nav__dropdown-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+                  <path
+                    d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2" />
+                </svg>
+                Wind Energy
+              </a>
+              <a href="hybrid.html" class="nav__dropdown-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                  <path d="M2 12l10 5 10-5" />
+                </svg>
+                Hybrid Solutions
+              </a>
+            </div>
+          </li>
+          <li class="nav__dropdown">
+            <span class="nav__dropdown-toggle">
+              Services
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </span>
+            <div class="nav__dropdown-menu">
+              <a href="epc-services.html" class="nav__dropdown-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+                  <path
+                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+                EPC Services
+              </a>
+              <a href="om-services.html" class="nav__dropdown-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+                  <circle cx="12" cy="12" r="3" />
+                  <path
+                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                </svg>
+                O&M Services
+              </a>
+              <a href="consulting.html" class="nav__dropdown-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+                  <line x1="18" y1="20" x2="18" y2="10" />
+                  <line x1="12" y1="20" x2="12" y2="4" />
+                  <line x1="6" y1="20" x2="6" y2="14" />
+                </svg>
+                Consulting
+              </a>
+            </div>
+          </li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary">Contact Us</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="nav--mobile">
+    <div class="nav__mobile-content">
+      <a href="index.html" class="nav__mobile-item">Home</a>
+
+      <div class="nav__mobile-group">
+        <div class="nav__mobile-group-title">Solutions</div>
+        <a href="solar.html" class="nav__mobile-sublink">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          Solar Energy
+        </a>
+        <a href="wind.html" class="nav__mobile-sublink">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2" />
+          </svg>
+          Wind Energy
+        </a>
+        <a href="hybrid.html" class="nav__mobile-sublink">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+            <path d="M2 17l10 5 10-5" />
+            <path d="M2 12l10 5 10-5" />
+          </svg>
+          Hybrid Solutions
+        </a>
+      </div>
+
+      <div class="nav__mobile-group">
+        <div class="nav__mobile-group-title">Services</div>
+        <a href="epc-services.html" class="nav__mobile-sublink">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+          </svg>
+          EPC Services
+        </a>
+        <a href="om-services.html" class="nav__mobile-sublink">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3" />
+            <path
+              d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+          </svg>
+          O&M Services
+        </a>
+        <a href="consulting.html" class="nav__mobile-sublink">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="20" x2="18" y2="10" />
+            <line x1="12" y1="20" x2="12" y2="4" />
+            <line x1="6" y1="20" x2="6" y2="14" />
+          </svg>
+          Consulting
+        </a>
+      </div>
+
+      <a href="about.html" class="nav__mobile-item">About</a>
+      <a href="contact.html" class="btn btn--primary">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          Hybrid Energy.<br>
+          <span class="hero__title-highlight">Engineered for Balance.</span>
+        </h1>
+        <p class="hero__subtitle">OnLoop Energy designs and delivers solar, small wind, and hybrid energy systems
+          tailored to real sites, real energy demand, and long-term performance—across residential, commercial,
+          industrial, and government applications.</p>
+        <div class="hero__actions">
+          <a href="hybrid.html" class="btn btn--primary btn--large">Explore Solutions</a>
+          <a href="contact.html" class="btn btn--secondary btn--large">Talk to Our Team</a>
+        </div>
+      </div>
+    </div>
+    <!-- Decorative visual element -->
+    <div class="hero__visual">
+      <div class="hero__graphic">
+        <div class="hero__graphic-circle"></div>
+        <div class="hero__graphic-circle"></div>
+        <div class="hero__graphic-circle"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro / Overview -->
+  <section class="content-section fade-in">
+    <div class="container container--narrow" style="text-align: center;">
+      <h2 class="content-section__title" style="margin-bottom: var(--space-6);">Clean energy works best when it is
+        engineered for the site—not forced onto it.</h2>
+      <p class="content-section__text">At OnLoop Energy, we provide end-to-end renewable energy solutions by combining
+        technical feasibility, site intelligence, and disciplined execution. From residential solar installations to
+        large commercial, industrial, and government projects, every system we deliver is designed with performance,
+        reliability, and scalability in mind.</p>
+    </div>
+  </section>
+
+  <!-- Who We Serve -->
+  <section class="content-section content-section--light fade-in">
+    <div class="container">
+      <div class="content-section__header">
+        <span class="content-section__label">Who We Serve</span>
+        <h2 class="content-section__title">Serving energy needs across sectors</h2>
+        <p class="content-section__text">While commercial and industrial projects form the core of our growth strategy,
+          our capabilities span across multiple customer segments.</p>
+      </div>
+      <div class="grid-3">
+        <!-- Residential -->
+        <div class="card">
+          <div class="card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+          </div>
+          <h4 class="card__title">Residential</h4>
+          <p class="card__text">Rooftop solar systems designed for homes with a focus on safety, efficiency, and
+            long-term energy savings.</p>
+        </div>
+        <!-- Commercial & Industrial -->
+        <div class="card">
+          <div class="card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 22h20"></path>
+              <path d="M6 18v-7"></path>
+              <path d="M6 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+              <path d="M14 18v-7"></path>
+              <path d="M18 18v-6"></path>
+              <path d="M18 6a2 2 0 0 0-2-2"></path>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-3"></path>
+              <path d="M14 18h-4"></path>
+              <path d="M22 13v3a2 2 0 0 1-2 2h-2"></path>
+            </svg>
+          </div>
+          <h4 class="card__title">Commercial & Industrial (C&I)</h4>
+          <p class="card__text">Large-scale solar, wind, and hybrid energy systems engineered to align with operational
+            loads, land availability, and business objectives.</p>
+        </div>
+        <!-- Government & Institutional -->
+        <div class="card">
+          <div class="card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="2" x2="12" y2="7"></line>
+              <polyline points="5 7 12 2 19 7"></polyline>
+              <line x1="5" y1="7" x2="19" y2="7"></line>
+              <line x1="4" y1="22" x2="20" y2="22"></line>
+              <line x1="8" y1="22" x2="8" y2="7"></line>
+              <line x1="16" y1="22" x2="16" y2="7"></line>
+              <line x1="12" y1="22" x2="12" y2="7"></line>
+            </svg>
+          </div>
+          <h4 class="card__title">Government & Institutional</h4>
+          <p class="card__text">Compliant and scalable renewable energy projects designed for public infrastructure,
+            utilities, and institutional facilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions Overview -->
+  <section class="content-section fade-in">
+    <div class="container">
+      <div class="content-section__header">
+        <span class="content-section__label">Solutions Overview</span>
+        <h2 class="content-section__title">Our Solutions</h2>
+        <p class="content-section__text">Every solution begins with understanding the site, energy usage, and long-term
+          goals.</p>
+      </div>
+      <div class="grid-3">
+        <div class="image-card">
+          <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=400&fit=crop"
+            alt="Solar Energy">
+          <div class="image-card__caption">
+            <h4>Solar Energy Systems</h4>
+            <p>Rooftop and ground-mounted solar installations for residential, commercial, industrial, and government
+              applications—engineered for efficiency and durability.</p>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&h=400&fit=crop"
+            alt="Small Wind Turbine">
+          <div class="image-card__caption">
+            <h4>Small Wind Turbine Systems</h4>
+            <p>Site-specific small wind solutions deployed only where wind resources justify long-term performance and
+              reliability.</p>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&h=400&fit=crop"
+            alt="Hybrid Systems">
+          <div class="image-card__caption">
+            <h4>Hybrid Energy Systems</h4>
+            <p>Integrated solar and wind systems engineered together to improve energy availability, optimize asset
+              utilization, and reduce dependence on a single source.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hybrid Value / Education -->
+  <section class="content-section content-section--light fade-in">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <span class="content-section__label">Hybrid Value</span>
+          <h2 class="content-section__title">Single-source energy systems often leave value unused.</h2>
+          <p class="content-section__text">Solar and wind behave differently across time and seasons. When designed
+            independently, they create gaps between generation and actual demand.</p>
+          <p class="content-section__text">At OnLoop Energy, hybrid systems are engineered as a single integrated
+            solution—balancing generation profiles to deliver more usable energy across operating hours.</p>
+          <div
+            style="margin-top: var(--space-8); padding: var(--space-6); background: rgba(30,115,184,0.05); border-radius: var(--radius-lg); border-left: 4px solid var(--color-primary);">
+            <h4 style="margin-bottom: var(--space-2); color: var(--color-primary); font-size: var(--font-size-lg);">
+              Hybrid is not an add-on.</h4>
+            <p
+              style="margin-bottom: 0; font-weight: 500; font-size: var(--font-size-base); color: var(--color-text-secondary);">
+              It is an engineering decision.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+              <path d="M2 17l10 5 10-5"></path>
+              <path d="M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <h4 class="card__title">Integrated Balance</h4>
+          <p class="card__text">We don't just collocate panels and turbines. We analyze the generation curves to create
+            a system that smooths out the peaks and fills in the valleys, ensuring you get the most out of your energy
+            investment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Approach -->
+  <section class="content-section fade-in">
+    <div class="container">
+      <div class="content-section__header">
+        <span class="content-section__label">Our Approach</span>
+        <h2 class="content-section__title">Our Engineering-First Approach</h2>
+        <p class="content-section__text">We don’t sell equipment. We design energy systems.</p>
+      </div>
+      <div class="grid-4" style="align-items: stretch;">
+        <!-- Assess -->
+        <div class="feature-item" style="flex-direction: column; align-items: flex-start; gap: var(--space-4);">
+          <div class="feature-item__icon" style="width: 40px; height: 40px; font-weight: bold; font-size: 1.2rem;">1
+          </div>
+          <div>
+            <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--space-2);">Assess</h4>
+            <p class="feature-item__text" style="font-size: var(--font-size-base);">Detailed site evaluation, load
+              analysis, and technical feasibility.</p>
+          </div>
+        </div>
+        <!-- Design -->
+        <div class="feature-item" style="flex-direction: column; align-items: flex-start; gap: var(--space-4);">
+          <div class="feature-item__icon" style="width: 40px; height: 40px; font-weight: bold; font-size: 1.2rem;">2
+          </div>
+          <div>
+            <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--space-2);">Design</h4>
+            <p class="feature-item__text" style="font-size: var(--font-size-base);">Custom system architecture tailored
+              to site conditions and energy objectives.</p>
+          </div>
+        </div>
+        <!-- Build -->
+        <div class="feature-item" style="flex-direction: column; align-items: flex-start; gap: var(--space-4);">
+          <div class="feature-item__icon" style="width: 40px; height: 40px; font-weight: bold; font-size: 1.2rem;">3
+          </div>
+          <div>
+            <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--space-2);">Build</h4>
+            <p class="feature-item__text" style="font-size: var(--font-size-base);">End-to-end EPC execution with a
+              focus on quality, safety, and compliance.</p>
+          </div>
+        </div>
+        <!-- Maintain -->
+        <div class="feature-item" style="flex-direction: column; align-items: flex-start; gap: var(--space-4);">
+          <div class="feature-item__icon" style="width: 40px; height: 40px; font-weight: bold; font-size: 1.2rem;">4
+          </div>
+          <div>
+            <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--space-2);">Maintain</h4>
+            <p class="feature-item__text" style="font-size: var(--font-size-base);">Performance-focused operations and
+              maintenance to protect long-term output.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why OnLoop -->
+  <section class="content-section content-section--light fade-in">
+    <div class="container">
+      <div class="content-section__header">
+        <span class="content-section__label">Why OnLoop Energy</span>
+        <h2 class="content-section__title">Built for long-term performance</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card card--light">
+          <h4 class="card__title">Engineering-led</h4>
+          <p class="card__text">Not sales-driven. We prioritize technical viability.</p>
+        </div>
+        <div class="card card--light">
+          <h4 class="card__title">Honest Feasibility</h4>
+          <p class="card__text">We tell you what works and what doesn't, upfront.</p>
+        </div>
+        <div class="card card--light">
+          <h4 class="card__title">Site-Specific</h4>
+          <p class="card__text">No templates. Every design is unique to the location.</p>
+        </div>
+        <div class="card card--light">
+          <h4 class="card__title">Hybrid Expertise</h4>
+          <p class="card__text">Specialized in integrating solar and wind for optimal output.</p>
+        </div>
+        <div class="card card--light">
+          <h4 class="card__title">Single Accountability</h4>
+          <p class="card__text">From design to O&M, we take full responsibility.</p>
+        </div>
+        <div class="card card--light">
+          <h4 class="card__title">Scalable</h4>
+          <p class="card__text">From residential rooftops to large infrastructure projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-section fade-in">
+    <div class="container">
+      <div class="cta-section__content">
+        <h2 class="cta-section__title">Let’s design the right energy system for your site</h2>
+        <p class="cta-section__text">Whether it’s a home, an industrial facility, or a public-sector project, the right
+          energy solution starts with the right engineering.</p>
+        <a href="contact.html" class="btn btn--primary btn--large">
+          Contact OnLoop Energy
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="images/logo.svg" alt="OnLoop Energy" style="height: 36px; width: auto;">
+          </div>
+          <p class="footer__description">
+            Developing hybrid wind–solar power projects for commercial and industrial customers. Gujarat, India.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__title">Solutions</h4>
+          <ul class="footer__list">
+            <li><a href="solar.html" class="footer__link">Solar</a></li>
+            <li><a href="wind.html" class="footer__link">Wind</a></li>
+            <li><a href="hybrid.html" class="footer__link">Hybrid</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Services</h4>
+          <ul class="footer__list">
+            <li><a href="epc-services.html" class="footer__link">EPC Services</a></li>
+            <li><a href="om-services.html" class="footer__link">O&M Services</a></li>
+            <li><a href="consulting.html" class="footer__link">Consulting</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Company</h4>
+          <ul class="footer__list">
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 OnLoop Energy. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
